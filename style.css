@@ -144,6 +144,7 @@ ul li{
 }
 .custom-btn {
     background-image: linear-gradient(to right,#027B9A,#004658);
+    border-radius: 5px;
     cursor: pointer;
     color: #fff!important;
     font-weight: 700;
@@ -302,7 +303,7 @@ footer {
 }
 footer.footer:before {
     background: linear-gradient(45deg, #800404, black );
-    content: '';
+    content: center ;
     position: absolute;
     top: 0;
     left: 0;
@@ -321,7 +322,7 @@ footer .row {
 }
 .social-icon {
     list-style: none;
-    display: flex;
+    display: inline;
     align-items: center;
     justify-content: flex-end;
     margin: 0;
@@ -610,9 +611,14 @@ a.pt {
 #show_after {
   display: none;
     width: 200px;
-    background: red;
+    height: 30px;
+    background: linear-gradient(45deg, #800404, black );
+    color: white;
     float: right;
     margin: 10px 0;
+    border-radius: 20px;
+    text-align: center;
+    
 }
 #show_after1{
   display: none;
@@ -628,3 +634,7 @@ a.pt {
     float: right;
     margin: 10px 0;
 }
+
+
+
+
